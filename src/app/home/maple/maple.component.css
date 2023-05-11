@@ -1,0 +1,12 @@
+#MapleCard {
+	width: 100vw;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#title {
+	font-size: 25vw;
+	color: #607d8b;
+}

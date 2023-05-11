@@ -1,0 +1,12 @@
+#CvCard {
+	width: 100vw;
+	height: 80%;
+	background-color: #e91e63;
+	display: flex;
+	align-items: center;
+}
+
+#title {
+	border-bottom: 3px solid #57ba86;
+	font-size: xx-large;
+}

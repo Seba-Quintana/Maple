@@ -1,0 +1,9 @@
+#contact {
+	display: flex;
+	align-items: center;
+
+}
+
+.toolbar {
+	height: 80px;
+}
