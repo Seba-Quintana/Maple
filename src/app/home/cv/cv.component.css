@@ -9,4 +9,10 @@
 #title {
 	border-bottom: 3px solid #57ba86;
 	font-size: xx-large;
+	margin-bottom: 10%;
+}
+
+.subtitle {
+	font-size: xx-large;
+	margin-bottom: 5%;
 }
