@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './body/home/home.component';
+import { AboutComponent } from './body/about/about.component';
+import { ProjectsComponent } from './body/projects/projects.component';
 
 const routeConfig: Routes = [
 	{
@@ -15,7 +16,7 @@ const routeConfig: Routes = [
 	},
 	{
 		path: 'projects',
-		component: AboutComponent,
+		component: ProjectsComponent,
 		title: 'Projects page'
 	}
 ];

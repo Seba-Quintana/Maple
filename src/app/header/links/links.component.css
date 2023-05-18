@@ -1,0 +1,11 @@
+button {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+	background-color: #e91e63 !important;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

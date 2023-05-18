@@ -1,0 +1,7 @@
+<button mat-button [matMenuTriggerFor]="beforeMenu">Theme</button>
+<mat-menu #beforeMenu="matMenu" xPosition="before">
+	<button mat-menu-item (click)="changeTheme()">Theme 1</button>
+	<button mat-menu-item (click)="changeTheme()">Theme 2</button>
+	<button mat-menu-item (click)="changeTheme()">Theme 3</button>
+	<button mat-menu-item (click)="changeTheme()">Theme 4</button>
+</mat-menu>
