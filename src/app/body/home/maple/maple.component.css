@@ -1,13 +1,32 @@
 #MapleCard {
 	width: 100vw;
-	height: 80%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #e91e63 !important;
+	text-align: center;
+	/*background-color: #e91e63 !important;*/
+	/*background: linear-gradient(217deg, red, rgba(255,0,0,0) 70.71%),
+				linear-gradient(127deg, orange, rgba(0,255,0,0) 70.71%),
+				linear-gradient(336deg, black, rgba(0,0,255,0) 70.71%);*/
 }
 
 #title {
-	font-size: 25vw;
-	color: #607d8b;
+	font-size: 10em;/*10em?*/
+	color: black;
+	opacity: 60%;
+	line-height: 1.3em;
 }
+/*
+:host {
+	display: block;
+	margin-top: 1rem;
+  }
+
+  .open-close-container {
+	border: 1px solid #dddddd;
+	margin-top: 1em;
+	padding: 20px 20px 0px 20px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+  }*/

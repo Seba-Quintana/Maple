@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MapleComponent } from "./maple/maple.component";
-import { CvComponent } from "./cv/cv.component";
+import { WelcomeComponent } from "./welcome/welcome.component";
 
 @Component({
     selector: 'app-home',
@@ -11,7 +11,7 @@ import { CvComponent } from "./cv/cv.component";
     imports: [
 		CommonModule,
 		MapleComponent,
-		CvComponent,
+		WelcomeComponent,
 	]
 })
 export class HomeComponent {

@@ -1,0 +1,28 @@
+#WelcomeCard {
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#title {
+	border-bottom: 3px solid #57ba86;
+	font-size: 2em;
+	margin-bottom: 10%;
+}
+
+.subtitle {
+	font-size: 2em;
+	margin-bottom: 5%;
+}
+
+p {
+	line-height: 2em;
+	font-size: 1.5em;
+}
+
+a {
+	color: #e91e63;
+	font-weight: bold;
+}

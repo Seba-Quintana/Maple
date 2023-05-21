@@ -1,3 +1,8 @@
+/* this is fine but I don't like it
+#tabs-container {
+	min-height: 65.5%;
+}
+*/
 
 .card {
 	display: flex;
@@ -6,10 +11,14 @@
 	width: 100%;
 	text-align: center;
 	margin-bottom: 20px;
+	font-size: 1.3em;
+	line-height: 1.5em;
 }
 
 .title {
 	font-weight: bolder;
+	font-size: 1.5em;
+	line-height: 1.8em;
 }
 
 #header {
