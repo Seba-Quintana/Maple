@@ -1,8 +1,11 @@
 {
   "name": "landing-page",
   "version": "0.0.0",
+  "homepage": "https://seba-quintana.github.io/Maple",
   "scripts": {
     "ng": "ng",
+	"predeploy": "ng build --output-path docs --base-href Maple",
+	"deploy": "gh-pages -d docs",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
@@ -29,6 +32,7 @@
     "@angular/cli": "~16.0.0",
     "@angular/compiler-cli": "^16.0.0",
     "@types/jasmine": "~4.3.0",
+    "gh-pages": "^5.0.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",

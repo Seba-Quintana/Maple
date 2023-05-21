@@ -4,7 +4,6 @@
 :root {
 	--primary: #e91e63;
 	--secondary: #303030;
-	--accent: ;
 	--details: #57ba86;
 	--original-primary: #c2185b;
 
@@ -18,6 +17,7 @@
 html,
 body {
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body {
