@@ -1,15 +1,20 @@
 <app-sub-header [title]="'Projects'"></app-sub-header>
 
 <div id="cardContainer">
-	<mat-card class="Card1">
+	<mat-card class="card1">
 		<mat-card-header>
-			<mat-card-title id="title">MATCHAMKING</mat-card-title>
+			<mat-card-title id="matchamking">MATCHAMKING</mat-card-title>
 		</mat-card-header>
-		<mat-card-content id="content">
+		<mat-card-content id="matchamkingContent">
 			<img id="matchamking-desk" src="assets\matchamking-desk.png" alt="desktop version">
 			<img id="matchamking-mob" src="assets\matchamking-mob.png" alt="mobile version">
+			<p>
+				<br>
+				App made to create balanced teams of 5 people.<br>
+				Made for football, but could be escalated to any sport
+			</p>
 		</mat-card-content>
-		<mat-card-footer class="footer">
+		<mat-card-footer id="matchamkingFooter">
 			<p>(ONGOING)</p>
 			<a href="https://github.com/Diekkan/Matchamking" target="_blank">
 				<button mat-mini-fab color="accent">
@@ -22,11 +27,19 @@
 		</mat-card-footer>
 	</mat-card>
 
-	<mat-card class="Card2">
+	<mat-card class="card2">
 		<mat-card-header>
-			<mat-card-title id="title">Engine</mat-card-title>
+			<mat-card-title id="engine">Engine</mat-card-title>
 		</mat-card-header>
-		<mat-card-content id="content"></mat-card-content>
-		<mat-card-footer class="footer"><p>(ONGOING)</p></mat-card-footer>
+		<mat-card-content id="engineContent">
+			<p>
+				<br>
+				The main idea is to create a simple game engine in C, utilizing existing libraries.<br>
+				This is only an idea, and may not conclude in a real project.<br>
+				We are learning about SDL at the moment.<br>
+				If we can carry out the project, it would be nice to develop a game with it.
+			</p>
+		</mat-card-content>
+		<mat-card-footer id="engineFooter"><p>(INVESTIGATION ONGOING)</p></mat-card-footer>
 	</mat-card>
 </div>

@@ -3,7 +3,7 @@
 	text-align: center;
 }
 
-.Card1 {
+.card1 {
 	width: 100vw;
 	height: 80%;
 	display: flex;
@@ -12,13 +12,20 @@
 	background-color: #303030 !important;
 }
 
-#content {
+#engineContent, #matchamkingContent {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;
 	height: 100%;
 	width: 100%;
+	flex-wrap: wrap;
+	font-size: 2em;
+	line-height: 1.5em;
+	color: orange;
+}
+#engineContent {
+	color:#303030;
 }
 
 #matchamking-desk {
@@ -35,7 +42,7 @@
 	width: 15%;
 }
 
-.Card2 {
+.card2 {
 	width: 100vw;
 	height: 80%;
 	display: flex;
@@ -43,12 +50,28 @@
 	background-color: #e91e63 !important;
 }
 
-#title {
+#matchamking, #engine {
 	font-size: 4em;
-	color: #607d8b;
 }
 
-.footer {
+#matchamking {
+	color: orange;
+}
+
+#engine {
+	color: #303030;
+}
+
+#matchamkingFooter, #engineFooter {
 	margin-top: 30px;
 	margin-bottom: 15px;
+}
+
+#matchamkingFooter {
+	color: orange;
+}
+
+
+#engineFooter {
+	color: #303030;
 }
