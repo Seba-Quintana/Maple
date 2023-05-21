@@ -9,7 +9,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #303030 !important;
+	background-color: var(--secondary) !important;
 }
 
 #engineContent, #matchamkingContent {
@@ -22,10 +22,10 @@
 	flex-wrap: wrap;
 	font-size: 2em;
 	line-height: 1.5em;
-	color: orange;
+	color: var(--details);
 }
 #engineContent {
-	color:#303030;
+	color:var(--secondary);
 }
 
 #matchamking-desk {
@@ -47,7 +47,7 @@
 	height: 80%;
 	display: flex;
 	align-items: center;
-	background-color: #e91e63 !important;
+	background-color: var(--primary) !important;
 }
 
 #matchamking, #engine {
@@ -55,11 +55,11 @@
 }
 
 #matchamking {
-	color: orange;
+	color: var(--details);
 }
 
 #engine {
-	color: #303030;
+	color: var(--secondary);
 }
 
 #matchamkingFooter, #engineFooter {
@@ -68,10 +68,10 @@
 }
 
 #matchamkingFooter {
-	color: orange;
+	color: var(--details);
 }
 
 
 #engineFooter {
-	color: #303030;
+	color: var(--secondary);
 }

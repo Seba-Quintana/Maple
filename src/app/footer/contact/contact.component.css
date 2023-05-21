@@ -1,4 +1,6 @@
 button {
 	margin-left: 5px;
 	margin-right: 10px;
+	background-color: var(--primary);
+	color: white;
 }

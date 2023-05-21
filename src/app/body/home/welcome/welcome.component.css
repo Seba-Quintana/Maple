@@ -23,6 +23,6 @@ p {
 }
 
 a {
-	color: #e91e63;
+	color: var(--primary);
 	font-weight: bold;
 }

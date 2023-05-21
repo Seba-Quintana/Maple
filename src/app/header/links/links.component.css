@@ -2,7 +2,7 @@ button {
 	display: flex;
 	align-items: center;
 	margin-right: 10px;
-	background-color: #e91e63 !important;
+	background-color: var(--primary) !important;
 }
 
 a {

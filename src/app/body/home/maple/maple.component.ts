@@ -16,11 +16,11 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
 		trigger('openClose', [
 			state('true', style({
 				opacity: 1,
-				backgroundColor: '#e91e63'
+				backgroundColor: 'var(--primary)'
 			})),
 			state('false', style({
 				opacity: 0.8,
-				backgroundColor: '#303030'
+				backgroundColor: 'var(--secondary)'
 			})),/*
 			transition('true => false', [
 				animate('1s')

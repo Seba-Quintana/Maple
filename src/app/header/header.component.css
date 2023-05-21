@@ -3,7 +3,7 @@
 	z-index: 2;
 	display: flex;
     justify-content: center;
-	background-color: #e91e63;
+	background-color: var(--primary);
 }
 
 #theme {
