@@ -4,14 +4,14 @@ import { MatCardModule } from '@angular/material/card';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 
 @Component({
-	selector: 'app-maple',
+	selector: 'app-main',
 	standalone: true,
 	imports: [
 		CommonModule,
 		MatCardModule,
 	],
-	templateUrl: './maple.component.html',
-	styleUrls: ['./maple.component.css'],
+	templateUrl: './main.component.html',
+	styleUrls: ['./main.component.css'],
 	animations: [
 		trigger('openClose', [
 			state('true', style({
@@ -52,7 +52,7 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
 
 })
 
-export class MapleComponent {
+export class MainComponent {
 	isOpen: boolean = true;
 
 }

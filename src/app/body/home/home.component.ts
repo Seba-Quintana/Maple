@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MapleComponent } from "./maple/maple.component";
+import { MainComponent } from "./main/main.component";
 import { WelcomeComponent } from "./welcome/welcome.component";
 
 @Component({
@@ -10,7 +10,7 @@ import { WelcomeComponent } from "./welcome/welcome.component";
     styleUrls: ['./home.component.css'],
     imports: [
 		CommonModule,
-		MapleComponent,
+		MainComponent,
 		WelcomeComponent,
 	]
 })
